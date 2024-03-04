@@ -13,6 +13,7 @@ namespace Wildberries.Models.Database
         public string Login { get; set; }
         public string Password { get; set; }
         public decimal Salary { get; set; }
+        public string Position { get; set; }
         public PickupPoints FK_PickupPoint { get; set; }
     }
 }

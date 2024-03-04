@@ -6,11 +6,10 @@ using System.Threading.Tasks;
 
 namespace Wildberries.Models.Database
 {
-    internal class Products
+    internal class Orders_Details
     {
         public int Id { get; set; }
-        public string Title { get; set; }
-        public decimal Price { get; set; }
-        public decimal Rating { get; set; }
+        public Products FK_Product { get; set; }
+        public Orders FK_Order { get; set; }
     }
 }
